@@ -1,1 +1,111 @@
 /* Add CSS styling here */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+h1 {
+    font-size: 400%;
+    color:  #660066;
+}
+nav {
+    background-color:#e6fff2;
+    
+}
+nav .pages {
+    display: flex;
+}
+nav .pages > a {
+    margin: 5px;
+    border: solid #00b356;
+    padding: 5px 10px 5px 10px;
+    font-size: 200%;
+    text-decoration: none;
+    color:  #660066;
+    border-radius: 20px;
+    background-color: #66ff99;
+}
+header {
+    background-color: #ffe6ff;
+    display: flex;
+    color: #003300;
+    font-size: 200%;
+}
+header a {
+    margin: 5px;
+    border: solid #cc00cc;
+    padding: 5px 10px 5px 10px;
+    font-size: 100%;
+    text-decoration: none;
+    color:  #003300;
+    border-radius: 20px;
+    background-color: #ff66ff;
+    
+}
+header img {
+    width: 1000px;
+}
+.personal {
+    /* border: solid #00b356; */
+    display: flex;
+    flex-flow: nowrap row;
+    justify-content: space-evenly;
+}
+.MyInfo{
+    display: flex;
+    /* border: solid #00b356; */
+    flex-flow: column wrap;
+    align-items: center;
+    max-width: 500px;
+}
+section img {
+    width: 500px;
+}
+section .projects {
+    /* border: solid #00b356; */
+    background-color: #ffe6ff;
+    color:  #003300;
+    text-align: center;
+    display: flex; 
+    flex-flow: row wrap;
+}
+section .projects > div {
+    /* border: solid #00b356; */
+    display: flex;
+    flex-flow: column;
+    margin: 20px 20px 20px 20px;
+    font-size: 200%;
+}
+footer {
+    display: flex;
+    background-color:#e6fff2;
+    align-items: center;
+    flex-flow: column;
+    font-size: 400%;
+    color: #003300;
+}
+footer a {
+    margin: 5px;
+    border: solid #00b356;
+    padding: 5px 10px 5px 10px;
+    font-size: 100%;
+    text-decoration: none;
+    color:  #660066;
+    border-radius: 20px;
+    background-color: #66ff99;
+}

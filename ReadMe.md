@@ -7,9 +7,16 @@ The module challenge is the afternoon project or assignment that students work t
 ## Objectives
 
 - implement a CSS reset and understand why it’s important for cross-browser development
+    CSS resets allow for a baseline for the styling to occur without an uneven style if references to the root CSS occurred (i.e. 100rem)
 - identify and explain all properties in the box model
+    margin- the space between the border and outside content
+    border- a line that borders the padding separated from the content
+    padding- a space separated from the content
+    content- this is the HTML content
 - describe and understand that flexbox is a module
+    As a module stipulates, flexbox needs a set of permissions in order to operate. These parents or children need to be set as an attribute to interact with flexbox.
 - demonstrate understanding of flex container properties in flex box
+    Flex container properties adjust all the content inside the containers according to the flexbox property set on them.
 
 ## Introduction
 
